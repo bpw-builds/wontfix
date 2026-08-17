@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx wontfix hook run",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

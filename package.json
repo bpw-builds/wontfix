@@ -1,0 +1,38 @@
+{
+  "name": "wontfix",
+  "version": "0.2.0",
+  "description": "A repo-local ledger of decisions and dead ends, so coding agents stop re-suggesting approaches you already rejected.",
+  "keywords": [
+    "ai",
+    "agent",
+    "context",
+    "claude-code",
+    "cursor",
+    "codex",
+    "cli",
+    "decision-log"
+  ],
+  "license": "MIT",
+  "author": "bpw",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpw-builds/wontfix.git"
+  },
+  "homepage": "https://github.com/bpw-builds/wontfix#readme",
+  "bin": {
+    "wontfix": "bin/wontfix.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
